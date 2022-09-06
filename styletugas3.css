@@ -19,6 +19,7 @@ nav{
 }
 .nav-bar a{
     padding:10px;
+    color: rgb(63, 63, 63);
 }
 .account {
 float: right;
@@ -29,7 +30,11 @@ font-family: 'Varela Round',sans-serif;
     padding: 10px;
     border: 1px solid black;
     margin:0.5rem;
+    color: rgb(63, 63, 63);
     border-radius: 10px;
+}
+.account a:hover{
+    padding: 15px;
 }
 .card-box{
     margin: 15px;
@@ -76,7 +81,8 @@ margin-left:80px;
 }
 .flex-foot a{
     display: block;
-    padding:5px
+    padding:5px;
+    color: rgb(73, 73, 73);
 }
 .keterangan{
     padding: 10px;
@@ -91,6 +97,7 @@ margin-left:80px;
 }
 .keterangan a{
     margin-right:10px ;
+    color:rgb(73, 73, 73);
 }
 .icon i{
     overflow: visible;
