@@ -45,6 +45,7 @@ overflow: auto;
 }
 .card-box p{
     text-align: left;
+    margin-left: 20px;
 }
 .card-box a{
     padding: 10px;
