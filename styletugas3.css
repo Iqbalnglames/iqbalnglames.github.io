@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    float: left;
+}
+nav{
+    padding:20px;
+}
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    font-family: 'Varela Round',sans-serif;
+}
+.nav-bar a{
+    padding:10px;
+}
+.account {
+float: right;
+margin-top: -28px;
+font-family: 'Varela Round',sans-serif;
+}
+.account a{
+    padding: 10px;
+    border: 1px solid black;
+    margin:0.5rem;
+    border-radius: 10px;
+}
+.card-box{
+    margin: 15px;
+    -webkit-box-shadow: 10px 9px 25px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 9px 25px -8px rgba(0,0,0,0.75);
+box-shadow: 10px 9px 25px -8px rgba(0,0,0,0.75);
+overflow: auto;
+}
+.card-box p{
+    text-align: left;
+}
+.card-box a{
+    padding: 10px;
+    border: solid black;
+    margin: 20px;
+    color: black;
+    border-radius: 20px;
+}
+.card-box a:hover{
+    padding: 20px;
+    border-radius: 40px;
+}
+.card-box li{
+    display: inline;
+    justify-content: center;
+}
+li .start{
+ background-color: black;
+ color: white;
+}
+footer{
+    background-color: rgb(225, 225, 225);
+    border-radius: 5px;
+}
+.flex-foot{
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+}
+.foot1, .foot2, .foot3, .foot4, .foot5 {
+display: flex;
+flex-direction: column;
+margin-left:80px;
+}
+.flex-foot a{
+    display: block;
+    padding:5px
+}
+.keterangan{
+    padding: 10px;
+}
+.keterangan p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -20px;
+    font-family: 'quicksand',sans-serif;
+    font-weight: bold;
+}
+.keterangan a{
+    margin-right:10px ;
+}
+.icon i{
+    overflow: visible;
+    float:right;
+    border: solid black;
+    padding:10px;
+    margin: 10px;
+    margin-top: -50px;
+    border-radius: 30px;
+}
+
+    
